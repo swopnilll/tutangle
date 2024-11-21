@@ -1,0 +1,607 @@
+/* 1. Wrapper and Container -----------------------*/
+.whole-wrapper{
+   
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color:white;
+}
+
+.header-wrapper{
+    
+    width: 100%;
+    height: fit-content;
+    overflow: hidden;
+
+   
+}
+
+.header-top{
+    width: 100%;
+    height: fit-content;
+    background-color: rgb(125,217,232);
+    overflow: hidden;
+}
+
+.header-bottom{
+  
+    width: 100%;
+    height: fit-content;
+   
+}
+
+.body-wrapper{
+    
+    width: 100%;
+    height: fit-content;
+    background-color:white;
+    overflow: hidden;
+}
+
+.footer-wrapper{
+    margin-top: 30px;
+    width: 100%;
+    height:fit-content;
+    background-color:dimgray;
+    overflow: hidden;
+}
+
+.header-top-container{
+    
+    width: 941px;
+    height: fit-content;
+    margin: 0 auto;
+    
+   
+}
+.header-bottom-container{
+    
+    
+    width: 941px;
+    height: fit-content;
+    margin: 0 auto;
+    margin-top:  0px;
+    background: black;
+
+}
+
+.body-wrapper-container{
+    padding-top: 30px;
+    width: 941px;
+    height: fit-content;
+    margin: 0 auto;
+   
+}
+.footer-wrapper-container{
+    
+    width: 941px;
+    height: fit-content;
+    margin: 0 auto;
+    
+}
+/* 1. Wrapper and Container ---------------------END */
+
+
+/* 2. Header-top-container */
+
+.website-logo{
+    padding-top: 15px;
+    padding-bottom: 16px;
+    float: left;
+    width: fit-content;
+    height: fit-content;
+   
+}   
+
+.form-box{
+    float: left;
+    width: fit-content;
+    height: fit-content;
+    
+    margin-top: 28px;
+    margin-left: 30px;
+    overflow: hidden;
+}
+.input-box{
+   
+    float: left;
+    width: fit-content;
+    height: fit-content;
+    background-color:#cbeff4;
+    overflow: hidden;
+
+}
+
+.input-left{
+    float: left;
+    background-image: url("/images/left-search.png");
+    background-repeat: no-repeat;
+    height: fit-content;
+    overflow: hidden;
+   
+}
+
+.input-right{
+    float: left;
+    height: fit-content;
+    padding-bottom: 0px;
+    height: fit-content;
+    
+}
+.input-right input{
+    background: transparent;
+    border: none;
+    width: 280px;
+    font-size: small;
+    outline: none;
+    
+    padding-left: 10px;
+    height: 20px;
+    overflow: hidden;
+     
+}
+.input-right a{
+height: fit-content;
+}
+.input-end {
+    float: right;
+    height: 0px;
+}
+.input-end img{
+    height: 20px;
+}
+
+
+.button-box{
+    float: left;
+    width: 47px;
+    height: 20px;
+    margin-left: 3px;
+    background: #264e55;
+    color:white;
+    font-size: small;
+}
+.left-button{   
+    float: left;
+    width: 40px;
+    height: 20px;
+    background-image: url(/images/buttom-left.jpg);
+    background-repeat: no-repeat;  
+}
+.left-button button{
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+.left-button a{
+    text-decoration: none;
+    color: white;
+    font-size: small;
+    padding-left: 2px;
+   
+}
+
+
+.header-top-right{
+    
+    width: fit-content;
+    height: fit-content;
+    float: right;
+  
+}
+.header-top-right-text{
+    padding-top: 27px;
+    padding-left:113px;
+    width: fit-content;
+    height: fit-content;
+   
+}
+.header-top-right-nav{
+    float: right;
+    padding-left: 0px;
+    padding-bottom: 5px;
+    width: fit-content;
+    height: fit-content;
+    
+    
+}
+
+.header-top-right-nav ul a{
+    text-decoration: none;  
+    padding-left: 10px;
+    color: black;
+ 
+}
+
+.header-top-right-nav  li {
+    display: inline-block;    
+}
+
+
+
+/* 2. Header-bottom-container */
+
+.header-bottom-container-nav{
+    float: left;
+    width: fit-content;
+    height: fit-content;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  
+}
+.header-bottom-container-nav ul a{
+    text-decoration: none;  
+    color: black;
+}
+.header-bottom-container-nav li{
+  display: inline;  
+  padding: 4px;
+  text-decoration: none;
+}
+
+
+.header-bottom-container-right{
+    float: right;
+    width: 437px;
+    height: fit-content;
+   
+    
+    
+}
+.fren-request-box{
+    float: right;
+    width: fit-content;
+    height: fit-content;
+    padding-top: 4%;
+    padding-bottom: 15px;
+   
+    
+       
+}
+.fren-request-box img{
+    padding-right: 5px;
+}
+
+.fren-request-box span{
+    padding-bottom: 7px;
+}
+
+.topic-box-box{
+    
+    float: left;
+    width: fit-content;
+    height: fit-content;
+    padding-top: 4%;
+    padding-left: 90px;
+    
+}
+.topic- box-box img{
+    padding-right: 5px;
+}
+.topic-box-box span{
+    padding-bottom: 7px;
+}
+
+ 
+/* 3. body-wrapper-container */
+.left-box{
+    float: left;
+    width: 195px;
+    height: fit-content;
+    background-color: rgb(184, 186, 189);;
+    overflow: hidden;
+}
+
+.right-box{
+   
+    float: right;
+    width:  195px;
+    height: fit-content;
+    background-color: rgb(184, 186, 189);
+    overflow: hidden;
+}
+.central-box{
+    
+    float: left;
+    margin-left: 32px;
+    width: 492px;
+    height: fit-content;
+    
+    overflow: hidden;
+}
+
+/* 4. footer-wrapper-container */
+
+.footer-nav{
+    
+    float: left;
+    width: fit-content;
+    height: fit-content;   
+    padding-top:21px;
+    padding-bottom: 21px;
+    
+}
+.footer-nav ul a{
+    text-decoration: none;  
+    color:white;
+
+}
+.footer-nav li{
+    display: inline;  
+    text-decoration: none;
+    padding: 4px 5px;
+  }
+.footer-nav img{
+    padding-bottom: 2px;
+}
+
+
+
+.copyright{
+    
+    float: right;
+    width: fit-content;
+    height: fit-content; 
+    padding-top: 21px;
+    padding-bottom: 21px;
+    color: white;
+   
+}
+
+/* left-box-container*/
+
+.recentsearches-one{
+    
+    width: 195px;
+    height: fit-content;
+    background-color: rgb(112, 100, 100);
+  
+}
+
+.recentsearches-one-title{
+   
+    width: 195px;
+    height: fit-content;
+    background-color:  rgb(125,217,232);
+    color: white;
+    
+}
+.recentsearches-one-title div{
+    padding-top: 14px;
+    padding-left: 13px;
+    padding-bottom: 14px;
+    
+
+}
+
+.recent-container ul{
+    width: 185px;
+    height: fit-content;
+    background-color:#f5f5f5; 
+    padding-top: 15px;
+    padding-left: 12px;
+    list-style-type: none;
+    font-size:small;
+  
+}
+
+.recent-container a{
+    text-decoration: none;
+    color: black;  
+}
+.recent-container img{
+    float: right;
+    padding-right: 10px;
+}
+
+.recentsearches-two{
+    
+    width: 195px;
+    height: fit-content;
+    background-color: #f5f5f5;
+}
+.recentsearches-two-title{
+    width: 195px;
+    height: 43px;
+    background-color: rgb(125,217,232); 
+    color: white;
+}
+.recentsearches-two-title div{
+    padding-top: 14px;
+    padding-left: 13px;
+
+}
+.rc2{
+    padding-bottom: 218px;
+}
+
+/* Right Box Contaner */
+.video-tutorial{
+   
+    width: 195px;
+    height: fit-content;
+    background-color:#f5f5f5;
+}
+.video-tutorial-tital{
+    width: 195px;
+    height: 43px;
+    background-color:  rgb(125,217,232);
+    color: white;
+}
+.video-tutorial-tital div{
+    padding-top: 14px;
+    padding-left: 13px;  
+}
+.vtt{
+    padding-bottom: 294px;
+}
+
+/*central-box container */
+
+.central-header-title{
+    width: 492px;
+    height: fit-content;
+    font-size: x-large;   
+    
+     
+}
+
+.central-header{
+    width: 492px;
+    height:fit-content;
+    overflow: hidden; 
+    background-image: url(/images/body-nav-background.png);
+}
+
+.all-entry{
+    float: left;
+    width: 246px;
+    height:fit-content;
+    overflow: hidden;
+   
+}
+
+.all-entry-container{
+    
+    width: 246px;
+    height:fit-content;
+    
+    overflow: hidden; 
+    padding-top:14px;
+    padding-bottom:14px;
+    padding-left: 98px;
+}
+
+.all-entry-nav-holder{
+    width: 320px;
+    height: fit-content;
+    margin-bottom: 4px;
+
+}
+
+.all-entry-nav{
+    float: left;
+    width: 115px;
+    height: 25px;
+    overflow: hidden; 
+    margin-left:18px;
+    
+}
+
+.all-member-button{
+    padding-top: 5px;
+    float: left;
+    width: 115px;
+    height: 30px;
+    color:white;
+    font-size: small;
+    background-image: url(/images/tab-active.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+
+}
+
+.all-member-button span{
+
+    padding-left: 10px;
+    padding-right: 15px;
+    font-size: small;
+}
+
+
+.frens-nav{
+    padding-left: 8px;
+    float: left;
+    width: 100px;
+    height: 25px;  
+}
+
+.frens-button {
+    padding-top: 5px;
+    float: left;
+    width: 115px;
+    height: 30px;
+    color:white;
+    font-size: small;
+    background-image: url(/images/tab-inactive.png);
+    background-repeat: no-repeat;
+    background-size: 95%;
+}
+
+.frens-button span{
+    padding-left: 35px;
+    padding-right: 15px;
+    font-size: small;
+}
+
+
+
+.subscribed{
+    float: right;
+    width: 246px;
+    height:fit-content;
+    
+    overflow: hidden; 
+}
+
+
+
+
+
+
+
+
+
+/* Central Content container */
+.central-content{
+    width: 492px;
+    height: fit-content;
+    margin-top: 0px;
+   
+    overflow: hidden;
+}
+.central-content li{
+    border-bottom: solid 1px rgb(233,233,233);
+    padding-top: 10px;
+}
+.cc-container{
+    width: 492px;
+    height: fit-content;
+    overflow: hidden;
+}   
+
+.image-contain{
+    float: left;
+    width: fit-content;
+    height: fit-content;
+   
+}
+.image-contain img{
+    padding-top:12px ;
+    padding-bottom: 12px;
+}
+.info-contain{
+    float: left;
+    width: 422px;
+    height: 50px;
+  
+    padding-top: 20px;
+}
+.info-contain div{
+    padding-left:15px;
+}
+.by{
+    text-decoration: none;
+    color: rgb(125,217,232);
+}
+.subsc{
+    text-decoration: none;
+    color: rgb(156,181,59);
+}
+.fourcol{
+    padding-top: 14px;
+}
+.red{
+    color:maroon;
+}
